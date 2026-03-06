@@ -1,3 +1,5 @@
+import React from "react";
+import "./App.css";
 import { Toaster } from "sonner";
 import Header from "./components/sections/Header";
 import Hero from "./components/sections/Hero";
