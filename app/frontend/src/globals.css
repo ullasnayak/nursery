@@ -1,0 +1,53 @@
+.App {
+    min-height: 100vh;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0f172a;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1e293b;
+}
+
+/* Button hover effects */
+button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+/* Focus states for accessibility */
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid #0f172a;
+    outline-offset: 2px;
+}
+
+/* Image optimization */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Disable text selection on buttons */
+button {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
